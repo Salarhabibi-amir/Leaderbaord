@@ -56,12 +56,12 @@ table {
   background-color: white;
 }
 
-.btn-submit{
+.btn-submit {
   width: 90px;
 }
 
-.btn{
-   display: flex;
+.btn {
+  display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
