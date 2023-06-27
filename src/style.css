@@ -55,3 +55,13 @@ table {
 .even {
   background-color: white;
 }
+
+.btn-submit{
+  width: 90px;
+}
+
+.btn{
+   display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
