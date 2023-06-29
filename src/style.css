@@ -8,7 +8,7 @@ body {
 .container {
   background-color: white;
   width: 50%;
-  height: 80vh;
+  
   margin: 50px auto;
   padding: 10px;
   border-radius: 20px;
@@ -27,7 +27,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
+  }
 
 .right-container {
   width: 50%;
@@ -48,14 +48,6 @@ table {
   width: 100%;
 }
 
-.odd {
-  background-color: lightgray;
-}
-
-.even {
-  background-color: white;
-}
-
 .btn-submit {
   width: 90px;
 }
@@ -64,4 +56,21 @@ table {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+}
+.myTable{
+  padding: 5px;
+}
+.border{
+  border: 3px solid black;
+}
+.shadow{
+  box-shadow: 3px 3px black;
+}
+.even{
+  background-color: lightgray;
+}
+.tr-padding{
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
 }

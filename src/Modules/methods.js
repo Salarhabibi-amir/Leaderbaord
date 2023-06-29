@@ -29,9 +29,15 @@ const getScores = async () => {
 const updateLeaderboard = () => {
   const scoreList = document.getElementById('scoreList');
   scoreList.innerHTML = '';
+  let index = 0;
   leaderboardData.forEach((score) => {
     const listItem = document.createElement('tr');
+    listItem.classList.add('tr-padding');
     listItem.textContent = `${score.user}: ${score.score}`;
+    index += 1;
+    if (index % 2 === 0) {
+      listItem.classList.add('even');
+    }
     scoreList.appendChild(listItem);
   });
 };
@@ -75,8 +81,9 @@ const refreshScores = async () => {
     alert('An error occurred. Please try again.');
   }
 };
-
+window.onload= refreshScores;
 const refreshButton = document.querySelector('.Refresh');
 refreshButton.addEventListener('click', refreshScores);
+
 const submitButton = document.querySelector('.btn-submit');
 submitButton.addEventListener('click', submitScore);
