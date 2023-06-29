@@ -81,7 +81,7 @@ const refreshScores = async () => {
     alert('An error occurred. Please try again.');
   }
 };
-window.onload= refreshScores;
+window.onload = refreshScores;
 const refreshButton = document.querySelector('.Refresh');
 refreshButton.addEventListener('click', refreshScores);
 

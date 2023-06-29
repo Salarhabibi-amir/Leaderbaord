@@ -8,7 +8,6 @@ body {
 .container {
   background-color: white;
   width: 50%;
-  
   margin: 50px auto;
   padding: 10px;
   border-radius: 20px;
@@ -27,7 +26,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  }
+}
 
 .right-container {
   width: 50%;
@@ -57,19 +56,24 @@ table {
   flex-direction: row;
   justify-content: flex-end;
 }
-.myTable{
+
+.myTable {
   padding: 5px;
 }
-.border{
+
+.border {
   border: 3px solid black;
 }
-.shadow{
+
+.shadow {
   box-shadow: 3px 3px black;
 }
-.even{
+
+.even {
   background-color: lightgray;
 }
-.tr-padding{
+
+.tr-padding {
   display: block;
   padding: 10px;
   border-radius: 5px;
